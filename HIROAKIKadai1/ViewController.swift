@@ -18,6 +18,11 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        TextField1.keyboardType = .decimalPad
+        TextField2.keyboardType = .decimalPad
+        TextField3.keyboardType = .decimalPad
+        TextField4.keyboardType = .decimalPad
+        TextField5.keyboardType = .decimalPad
         // Do any additional setup after loading the view.
     }
     
