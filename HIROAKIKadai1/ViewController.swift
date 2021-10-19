@@ -9,17 +9,18 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var TextField1: UITextField!
-    @IBOutlet weak var TextField2: UITextField!
-    @IBOutlet weak var TextField3: UITextField!
-    @IBOutlet weak var TextField4: UITextField!
-    @IBOutlet weak var TextField5: UITextField!
-    @IBOutlet weak var TotalLabel: UILabel!
+    @IBOutlet private weak var TextField1: UITextField!
+    @IBOutlet private weak var TextField2: UITextField!
+    @IBOutlet private weak var TextField3: UITextField!
+    @IBOutlet private weak var TextField4: UITextField!
+    @IBOutlet private weak var TextField5: UITextField!
+    @IBOutlet private weak var TotalLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
 
 
 }

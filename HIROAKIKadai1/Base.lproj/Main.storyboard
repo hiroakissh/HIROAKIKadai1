@@ -63,6 +63,14 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="TextField1" destination="4gK-7m-rRL" id="f4O-IW-4oD"/>
+                        <outlet property="TextField2" destination="7mp-PD-3Xh" id="ce8-Wq-BD2"/>
+                        <outlet property="TextField3" destination="tXW-bp-Hvw" id="i8W-HE-XRE"/>
+                        <outlet property="TextField4" destination="a0h-Yk-sJA" id="Dr4-Vk-peN"/>
+                        <outlet property="TextField5" destination="EdR-5H-vhg" id="cJr-LG-wdD"/>
+                        <outlet property="TotalLabel" destination="oSN-Sk-1Rt" id="Las-VW-3R8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
