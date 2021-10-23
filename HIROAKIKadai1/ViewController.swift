@@ -29,11 +29,11 @@ class ViewController: UIViewController {
     @IBAction func CalculationButton(_ sender: Any) {
         
         let Totalnum:Double
-        let num1 = Double(TextField1.text!)!
-        let num2 = Double(TextField2.text!)!
-        let num3 = Double(TextField3.text!)!
-        let num4 = Double(TextField4.text!)!
-        let num5 = Double(TextField5.text!)!
+        let num1 = (TextField1.text! as NSString).doubleValue
+        let num2 = (TextField1.text! as NSString).doubleValue
+        let num3 = (TextField1.text! as NSString).doubleValue
+        let num4 = (TextField1.text! as NSString).doubleValue
+        let num5 = (TextField1.text! as NSString).doubleValue
         
         Totalnum = num1 + num2 + num3 + num4 + num5
         
