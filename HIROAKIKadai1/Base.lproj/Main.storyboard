@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,11 +12,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HIROAKIKadai1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4gK-7m-rRL">
-                                <rect key="frame" x="157" y="76" width="100" height="40"/>
+                                <rect key="frame" x="250" y="32" width="100" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="Np6-2f-BO7"/>
                                     <constraint firstAttribute="width" constant="100" id="lIU-A2-xY2"/>
@@ -26,7 +25,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7mp-PD-3Xh">
-                                <rect key="frame" x="157" y="139" width="100" height="40"/>
+                                <rect key="frame" x="250" y="95" width="100" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="PdD-Rt-2pl"/>
                                     <constraint firstAttribute="height" constant="40" id="QPw-bz-BKr"/>
@@ -35,7 +34,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tXW-bp-Hvw">
-                                <rect key="frame" x="157" y="200" width="100" height="40"/>
+                                <rect key="frame" x="250" y="156" width="100" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="F3M-4N-3FB"/>
                                     <constraint firstAttribute="height" constant="40" id="ri8-2q-tHz"/>
@@ -44,7 +43,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="a0h-Yk-sJA">
-                                <rect key="frame" x="157" y="258" width="100" height="40"/>
+                                <rect key="frame" x="250" y="214" width="100" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="OXA-x2-QLq"/>
                                     <constraint firstAttribute="height" constant="40" id="fje-z6-kS4"/>
@@ -53,7 +52,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EdR-5H-vhg">
-                                <rect key="frame" x="157" y="321" width="100" height="40"/>
+                                <rect key="frame" x="250" y="277" width="100" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="dBr-3V-OIB"/>
                                     <constraint firstAttribute="width" constant="100" id="zPI-Dg-ezk"/>
@@ -62,7 +61,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rZW-WC-u92">
-                                <rect key="frame" x="181.5" y="398" width="51" height="42"/>
+                                <rect key="frame" x="274.5" y="354" width="51" height="42"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="計算"/>
@@ -71,7 +70,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="合計" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oSN-Sk-1Rt">
-                                <rect key="frame" x="181.5" y="477" width="51" height="30"/>
+                                <rect key="frame" x="274.5" y="433" width="51" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -97,12 +96,12 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="TextField1" destination="4gK-7m-rRL" id="f4O-IW-4oD"/>
-                        <outlet property="TextField2" destination="7mp-PD-3Xh" id="ce8-Wq-BD2"/>
-                        <outlet property="TextField3" destination="tXW-bp-Hvw" id="i8W-HE-XRE"/>
-                        <outlet property="TextField4" destination="a0h-Yk-sJA" id="Dr4-Vk-peN"/>
-                        <outlet property="TextField5" destination="EdR-5H-vhg" id="cJr-LG-wdD"/>
-                        <outlet property="TotalLabel" destination="oSN-Sk-1Rt" id="Las-VW-3R8"/>
+                        <outlet property="textField1" destination="4gK-7m-rRL" id="f4O-IW-4oD"/>
+                        <outlet property="textField2" destination="7mp-PD-3Xh" id="ce8-Wq-BD2"/>
+                        <outlet property="textField3" destination="tXW-bp-Hvw" id="i8W-HE-XRE"/>
+                        <outlet property="textField4" destination="a0h-Yk-sJA" id="Dr4-Vk-peN"/>
+                        <outlet property="textField5" destination="EdR-5H-vhg" id="cJr-LG-wdD"/>
+                        <outlet property="totalLabel" destination="oSN-Sk-1Rt" id="Las-VW-3R8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
