@@ -30,10 +30,10 @@ class ViewController: UIViewController {
         
         let Totalnum:Double
         let num1 = (TextField1.text! as NSString).doubleValue
-        let num2 = (TextField1.text! as NSString).doubleValue
-        let num3 = (TextField1.text! as NSString).doubleValue
-        let num4 = (TextField1.text! as NSString).doubleValue
-        let num5 = (TextField1.text! as NSString).doubleValue
+        let num2 = (TextField2.text! as NSString).doubleValue
+        let num3 = (TextField3.text! as NSString).doubleValue
+        let num4 = (TextField4.text! as NSString).doubleValue
+        let num5 = (TextField5.text! as NSString).doubleValue
         
         Totalnum = num1 + num2 + num3 + num4 + num5
         
